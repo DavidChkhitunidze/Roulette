@@ -1,0 +1,30 @@
+﻿@model CreateBetDto
+
+@{
+    ViewData["Title"] = "Game";
+}
+
+@{
+    var userId = Context.Request.Cookies["id"];
+}
+
+<div class="row h-100 justify-content-center align-items-center">
+    <div class="col-md-4">
+        <section>
+            <form id="make-bet">
+                <h4>Make your bet.</h4>
+                <hr>
+                <span class="text-danger"></span>
+                <input asp-for="UserId" value="@(userId)" class="form-control" hidden />
+                <div class="form-group">
+                    <label for="Input_Bet">Bet</label>
+                    <input asp-for="Bet" value="@("[{\"T\": \"n\", \"I\": 17, \"C\": 1, \"K\": 1},{\"T\": \"n\", \"I\": 19, \"C\": 1, \"K\": 1},{\"T\": \"n\", \"I\": 22, \"C\": 1, \"K\": 1}]")" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Bet</button>
+                </div>
+                <span class="text-success"></span>
+            </form>
+        </section>
+    </div>
+</div>
