@@ -1,4 +1,4 @@
-Roulette project includes: ASP.NET Core 2.2 API, ASP.NET Core 2.2 Web Application and some references for Entities, Db configurations, Dtos and related logics for API.
+Roulette project includes: ASP.NET Core 2.2 API, ASP.NET Core 2.2 Web Application, some references for Entities, Db configurations, Dtos and related logics for API.
 
 Technologies:
 SDK - Microsoft.NETCore, ASP.NET Core 2.2, EnfityFramework.Core, Swagger - NSwag, FluentValidation, Json, Razor Pages, Javascript, jQuery, HTML, CSS.
