@@ -12,9 +12,6 @@ SDK - Microsoft.NETCore, ASP.NET Core 2.2, EnfityFramework.Core, Swagger - NSwag
 5) Build solution with two projects "Roulette.Api" and "Roulette.Web".
 6) In web application register user and play roulette.
 
-P.S.
-Sorry for the delay, it's my fault, i could not find enough time to finish the client side application correctly, but in my opinion the main idea is clear.
-
 Respectfully
 
 David Chkhitunidze
